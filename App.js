@@ -1,0 +1,13 @@
+import React, { Component } from 'react';
+import { View } from 'react-native';
+import Home from './common/home';
+
+export default class App extends Component {
+  render() {
+    return (
+      <>
+          <Home/>
+      </>
+    )
+  }
+}
